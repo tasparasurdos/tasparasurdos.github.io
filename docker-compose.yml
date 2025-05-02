@@ -1,0 +1,16 @@
+version: '3'
+services:
+  server:
+    container_name: tasparasurdos
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    ports:
+      - "3000:3000"
+    environment:
+      - PYTHON_ENV=development
+    restart: always
+    tty: true
+    stdin_open: true
