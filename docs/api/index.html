@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentação da API - Catálogo de Tecnologias Assistivas para Surdos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Documentação da API - Catálogo de Tecnologias Assistivas para Surdos</span>
+    </div>
+  </nav>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-3">
+        <nav class="nav flex-column nav-pills">
+          <a class="nav-link active" href="#introducao">Introdução</a>
+          <a class="nav-link" href="#como-usar">Como usar</a>
+          <a class="nav-link" href="#estrutura-dados">Estrutura dos Dados</a>
+          <a class="nav-link" href="#indice">/indice.json</a>
+          <a class="nav-link" href="#categorias">/categorias.json</a>
+          <a class="nav-link" href="#custo">/custo.json</a>
+          <a class="nav-link" href="#etapas_ensino">/etapas_ensino.json</a>
+          <a class="nav-link" href="#requer_internet">/requer_internet.json</a>
+          <a class="nav-link" href="#plataformas">/plataformas.json</a>
+          <a class="nav-link" href="#recursos">/recursos.json</a>
+          <a class="nav-link" href="#tecnologia">/&lt;slug&gt;.json</a>
+          <a class="nav-link" href="#suporte">Suporte</a>
+        </nav>
+      </div>
+      <div class="col-md-9">
+        <section id="introducao">
+          <h2>Introdução</h2>
+          <p>A API do Catálogo de Tecnologias Assistivas para Surdos fornece acesso programático aos dados do catálogo, permitindo que desenvolvedores integrem as informações em suas próprias aplicações. Todos os endpoints são acessíveis via HTTP GET e retornam dados no formato JSON. O objetivo é facilitar o acesso a informações sobre tecnologias assistivas voltadas para surdos, organizadas em diferentes formatos e agrupamentos.</p>
+        </section>
+
+        <section id="como-usar" class="mt-4">
+          <h2>Como Usar</h2>
+          <p>Como esta é uma API estática, você pode fazer requisições diretamente usando ferramentas como <code>fetch</code> em JavaScript ou <code>requests</code> em Python. Abaixo estão exemplos de como acessar os dados:</p>
+          <h5>JavaScript (fetch)</h5>
+          <pre><code>
+fetch('https://tasparasurdos.github.io/api/leitor-tela.json')
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Erro:', error));
+          </code></pre>
+          <h5>Python (requests)</h5>
+          <pre><code>
+import requests
+response = requests.get('https://tasparasurdos.github.io/api/leitor-tela.json')
+data = response.json()
+print(data)
+          </code></pre>
+          <p>Substitua <code>leitor-tela.json</code> pelo slug da tecnologia desejada, que pode ser obtido no endpoint <code>/indice.json</code>.</p>
+        </section>
+
+        <section id="estrutura-dados" class="mt-4">
+          <h2>Estrutura de Dados</h2>
+          <p>Cada tecnologia individual contém os seguintes campos:</p>
+          <ul>
+            <li><strong>titulo</strong>: String - Nome da tecnologia</li>
+            <li><strong>descricao</strong>: String - Descrição detalhada da tecnologia</li>
+            <li><strong>orientacao</strong>: String - Instruções de uso</li>
+            <li><strong>dicas</strong>: String - Dicas para melhor uso</li>
+            <li><strong>etapas_justificativa</strong>: String - Justificativa pedagógica</li>
+            <li><strong>imagem</strong>: String - URL da imagem (ex.: <code>https://tasparasurdos.github.io/imagens/tec1.jpg</code>)</li>
+            <li><strong>categoria</strong>: String - Categoria da tecnologia</li>
+            <li><strong>custo</strong>: String - Custo (ex.: "Gratuito", "Pago")</li>
+            <li><strong>requer_internet</strong>: String - "Sim" ou "Não"</li>
+            <li><strong>plataformas</strong>: String - Plataformas suportadas (separadas por vírgula)</li>
+            <li><strong>autor</strong>: String - Autor da tecnologia</li>
+            <li><strong>link</strong>: String - URL para mais informações</li>
+            <li><strong>etapas</strong>: String - Etapas de ensino (separadas por ponto e vírgula)</li>
+          </ul>
+        </section>
+
+        <section id="indice" class="mt-4">
+          <div class="card mb-3">
+            <div class="card-header">
+              <span class="badge bg-success me-2"> Answered GET</span> /indice.json
+            </div>
+            <div class="card-body">
+              <h5>Descrição</h5>
+              <p>Retorna uma lista de todas as tecnologias assistivas disponíveis no catálogo.</p>
+              <h5>URL</h5>
+              <p><code>https://tasparasurdos.github.io/api/indice.json</code></p>
+              <h5>Parâmetros</h5>
+              <p>Nenhum</p>
+              <h5>Exemplo de Resposta</h5>
+              <pre><code>[
+  {
+    "titulo": "Tecnologia 1",
+    "icone": "https://tasparasurdos.github.io/imagens/tec1-icon.jpg",
+    "slug": "tec1",
+    "custo": "Gratuito",
+    "requer_internet": "Sim",
+    "plataformas": "Web",
+    "etapas": "Ensino Fundamental",
+    "apresentacao": "Breve descrição",
+    "link": "https://tasparasurdos.github.io/api/tec1.json"
+  },
+  {
+    "titulo": "Tecnologia 2",
+    "icone": "https://tasparasurdos.github.io/imagens/tec2-icon.jpg",
+    "slug": "tec2",
+    "custo": "Pago",
+    "requer_internet": "Não",
+    "plataformas": "Mobile",
+    "etapas": "Ensino Médio",
+    "apresentacao": "Outra breve descrição",
+    "link": "https://tasparasurdos.github.io/api/tec2.json"
+  }
+]</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="categorias" class="mt-4">
+          <div class="card mb-3">
+            <div class="card-header">
+              <span class="badge bg-success me-2">GET</span> /categorias.json
+            </div>
+            <div class="card-body">
+              <h5>Descrição</h5>
+              <p>Retorna as tecnologias agrupadas por categoria, incluindo descrições das categorias.</p>
+              <h5>URL</h5>
+              <p><code>https://tasparasurdos.github.io/api/categorias.json</code></p>
+              <h5>Parâmetros</h5>
+              <p>Nenhum</p>
+              <h5>Exemplo de Resposta</h5>
+              <pre><code>{
+  "Categoria 1": {
+    "descricao": "Descrição da Categoria 1",
+    "tecnologias": [
+      {
+        "titulo": "Tecnologia 1",
+        "icone": "https://tasparasurdos.github.io/imagens/tec1-icon.jpg",
+        "imagem": "https://tasparasurdos.github.io/imagens/tec1.jpg",
+        "slug": "tec1"
+      }
+    ]
+  },
+  "Categoria 2": {
+    "descricao": "Descrição da Categoria 2",
+    "tecnologias": [
+      {
+        "titulo": "Tecnologia 2",
+        "icone": "https://tasparasurdos.github.io/imagens/tec2-icon.jpg",
+        "imagem": "https://tasparasurdos.github.io/imagens/tec2.jpg",
+        "slug": "tec2"
+      }
+    ]
+  }
+}</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="custo" class="mt-4">
+          <div class="card mb-3">
+            <div class="card-header">
+              <span class="badge bg-success me-2">GET</span> /custo.json
+            </div>
+            <div class="card-body">
+              <h5>Descrição</h5>
+              <p>Retorna as tecnologias agrupadas por custo (gratuito, pago, etc.).</p>
+              <h5>URL</h5>
+              <p><code>https://tasparasurdos.github.io/api/custo.json</code></p>
+              <h5>Parâmetros</h5>
+              <p>Nenhum</p>
+              <h5>Exemplo de Resposta</h5>
+              <pre><code>{
+  "Gratuito": [
+    {
+      "titulo": "Tecnologia 1",
+      "slug": "tec1"
+    }
+  ],
+  "Pago": [
+    {
+      "titulo": "Tecnologia 2",
+      "slug": "tec2"
+    }
+  ]
+}</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="etapas_ensino" class="mt-4">
+          <div class="card mb-3">
+            <div class="card-header">
+              <span class="badge bg-success me-2">GET</span> /etapas_ensino.json
+            </div>
+            <div class="card-body">
+              <h5>Descrição</h5>
+              <p>Retorna as tecnologias agrupadas por etapas de ensino (ex.: Ensino Fundamental, Médio).</p>
+              <h5>URL</h5>
+              <p><code>https://tasparasurdos.github.io/api/etapas_ensino.json</code></p>
+              <h5>Parâmetros</h5>
+              <p>Nenhum</p>
+              <h5>Exemplo de Resposta</h5>
+              <pre><code>{
+  "Ensino Fundamental": [
+    {
+      "titulo": "Tecnologia 1",
+      "slug": "tec1"
+    }
+  ],
+  "Ensino Médio": [
+    {
+      "titulo": "Tecnologia 2",
+      "slug": "tec2"
+    }
+  ]
+}</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="requer_internet" class="mt-4">
+          <div class="card mb-3">
+            <div class="card-header">
+              <span class="badge bg-success me-2">GET</span> /requer_internet.json
+            </div>
+            <div class="card-body">
+              <h5>Descrição</h5>
+              <p>Retorna as tecnologias agrupadas por requisito de conexão à internet (Sim ou Não).</p>
+              <h5>URL</h5>
+              <p><code>https://tasparasurdos.github.io/api/requer_internet.json</code></p>
+              <h5>Parâmetros</h5>
+              <p>Nenhum</p>
+              <h5>Exemplo de Resposta</h5>
+              <pre><code>{
+  "Sim": [
+    {
+      "titulo": "Tecnologia 1",
+      "slug": "tec1"
+    }
+  ],
+  "Não": [
+    {
+      "titulo": "Tecnologia 2",
+      "slug": "tec2"
+    }
+  ]
+}</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="plataformas" class="mt-4">
+          <div class="card mb-3">
+            <div class="card-header">
+              <span class="badge bg-success me-2">GET</span> /plataformas.json
+            </div>
+            <div class="card-body">
+              <h5>Descrição</h5>
+              <p>Retorna as tecnologias agrupadas por plataformas suportadas (ex.: Web, Mobile).</p>
+              <h5>URL</h5>
+              <p><code>https://tasparasurdos.github.io/api/plataformas.json</code></p>
+              <h5>Parâmetros</h5>
+              <p>Nenhum</p>
+              <h5>Exemplo de Resposta</h5>
+              <pre><code>{
+  "Web": [
+    {
+      "titulo": "Tecnologia 1",
+      "slug": "tec1"
+    }
+  ],
+  "Mobile": [
+    {
+      "titulo": "Tecnologia 2",
+      "slug": "tec2"
+    }
+  ]
+}</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="recursos" class="mt-4">
+          <div class="card mb-3">
+            <div class="card-header">
+              <span class="badge bg-success me-2">GET</span> /recursos.json
+            </div>
+            <div class="card-body">
+              <h5>Descrição</h5>
+              <p>Retorna uma lista de recursos adicionais relacionados ao catálogo.</p>
+              <h5>URL</h5>
+              <p><code>https://tasparasurdos.github.io/api/recursos.json</code></p>
+              <h5>Parâmetros</h5>
+              <p>Nenhum</p>
+              <h5>Exemplo de Resposta</h5>
+              <pre><code>[
+  {
+    "titulo": "Recurso 1",
+    "link": "https://exemplo.com/recurso1",
+    "descricao": "Descrição do recurso 1"
+  },
+  {
+    "titulo": "Recurso 2",
+    "link": "https://exemplo.com/recurso2",
+    "descricao": "Descrição do recurso 2"
+  }
+]</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="tecnologia" class="mt-4">
+          <div class="card mb-3">
+            <div class="card-header">
+              <span class="badge bg-success me-2">GET</span> /&lt;slug&gt;.json
+            </div>
+            <div class="card-body">
+              <h5>Descrição</h5>
+              <p>Retorna os detalhes completos de uma tecnologia assistiva específica, identificada pelo seu slug. O slug pode ser obtido consultando o endpoint <code>/indice.json</code>.</p>
+              <h5>URL</h5>
+              <p><code>https://tasparasurdos.github.io/api/<slug>.json</code></p>
+              <h5>Parâmetros</h5>
+              <p>Nenhum</p>
+              <h5>Exemplo</h5>
+              <p>Para a tecnologia com slug "tec1":</p>
+              <p><code>https://tasparasurdos.github.io/api/tec1.json</code></p>
+              <h5>Exemplo de Resposta</h5>
+              <pre><code>{
+  "titulo": "Tecnologia 1",
+  "descricao": "Descrição detalhada da tecnologia.",
+  "orientacao": "Orientações para uso.",
+  "dicas": "Dicas adicionais.",
+  "etapas_justificativa": "Justificativa das etapas.",
+  "imagem": "https://tasparasurdos.github.io/imagens/tec1.jpg",
+  "categoria": "Categoria 1",
+  "custo": "Gratuito",
+  "requer_internet": "Sim",
+  "plataformas": "Web",
+  "autor": "Autor da tecnologia",
+  "link": "Link para mais informações",
+  "etapas": "Ensino Fundamental"
+}</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section id="suporte" class="mt-4">
+          <h2>Suporte</h2>
+          <p>Para dúvidas ou problemas com a API, por favor abra uma issue no repositório GitHub ou entre em contato via email.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

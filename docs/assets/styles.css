@@ -42,7 +42,7 @@ a:active {
 
   .bg-gradient-theme {
     background: linear-gradient(to right, #00bcf2, #00b294);
-    padding: 8px; /* Ajuste para espaçamento interno */
+    padding: 20px; /* Ajuste para espaçamento interno */
     border-radius: 12px; /* Para arredondar */
 }
 

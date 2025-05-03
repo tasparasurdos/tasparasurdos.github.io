@@ -1,0 +1,15 @@
+{
+  "titulo": "Transcrição Instantânea",
+  "descricao": "A Transcrição Instantânea é uma tecnologia assistiva que utiliza smartphones ou tablets Android para transcrever falas e sons em tempo real, tornando as conversas e sons mais acessíveis para pessoas surdas ou com perda auditiva. Em contextos educacionais, essa tecnologia pode ser usada em salas de aula para facilitar a comunicação e o acompanhamento de conteúdo, permitindo que estudantes surdos sigam as aulas em tempo real, sem depender exclusivamente de intérpretes de Libras.",
+  "orientacao": "Para obter o máximo da ferramenta, é importante garantir que o dispositivo esteja configurado corretamente e que o microfone capte o som de maneira clara. Utilize microfones externos para melhorar a qualidade do áudio. Evite depender exclusivamente da transcrição em ambientes barulhentos, pois a qualidade da transcrição pode ser prejudicada. Além disso, recomenda-se revisar o texto transcrito para corrigir possíveis erros.",
+  "dicas": "Utilize a transcrição instantânea em atividades de leitura e escrita para apoiar estudantes surdos na compreensão do conteúdo. É recomendada em atividades que envolvam discussões em grupo, apresentações orais ou explicações do professor. No entanto, evite seu uso exclusivo em aulas de ciências, onde a visualização de demonstrações práticas é essencial, pois a transcrição pode não capturar completamente o contexto visual.",
+  "etapas_justificativa": "A tecnologia é mais adequada para alunos que já possuem habilidades de leitura, o que normalmente ocorre a partir do Ensino Fundamental. Nos anos iniciais, pode ser utilizada para auxiliar no desenvolvimento da leitura e escrita, enquanto nos anos finais e no Ensino Médio, pode apoiar na compreensão de conteúdos mais complexos. A tecnologia pode não ser adequada para Educação Infantil, onde a oralidade e a visualização são mais importantes, e para estudantes de EJA, dependendo de suas habilidades de leitura.",
+  "imagem": "https://tasparasurdos.github.io/imagens/transcricao-instantanea.jpg",
+  "categoria": "Transcrição de Fala",
+  "custo": "Grátis",
+  "requer_internet": "Parcialmente",
+  "plataformas": "Android",
+  "autor": "Google",
+  "link": "Android,https://play.google.com/store/apps/details?id=com.google.audio.hearing.visualization.accessibility.scribe&hl=pt_BR;",
+  "etapas": "Ensino Fundamental - Anos Finais; Ensino Médio; EJA; Ensino Superior"
+}

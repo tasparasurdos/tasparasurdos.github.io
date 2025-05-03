@@ -1,0 +1,570 @@
+[
+  {
+    "id": 1,
+    "titulo": "LibraSol",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Plataforma de apoio à educação de surdos, com foco em Libras.",
+    "link": "https://www.librasol.com.br/"
+  },
+  {
+    "id": 2,
+    "titulo": "Site 'Amigo do Surdo'",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Portal com recursos e artigos voltados para a educação de surdos.",
+    "link": "https://www.amigodosurdo.com/results?search=%22EDUCA%C3%87%C3%83O%22"
+  },
+  {
+    "id": 3,
+    "titulo": "Cursos para surdos",
+    "plataforma": "Site",
+    "categoria": "Formação de Professores",
+    "descricao": "Plataforma de cursos para surdos, com foco em inclusão.",
+    "link": "https://www.signaedu.com/index.html"
+  },
+  {
+    "id": 4,
+    "titulo": "ATIVIDADES EDUCATIVAS",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Repositório de atividades educativas para diversas necessidades.",
+    "link": "https://www.atividadeseducativas.com.br/"
+  },
+  {
+    "id": 5,
+    "titulo": "Educação em Libras",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Blog sobre educação em Libras e materiais pedagógicos.",
+    "link": "https://educacaoemlibras.blogspot.com/"
+  },
+  {
+    "id": 6,
+    "titulo": "Diversa",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Materiais pedagógicos inclusivos para diversos públicos.",
+    "link": "https://diversa.org.br/materiais-pedagogicos/"
+  },
+  {
+    "id": 7,
+    "titulo": "GIFS DE SINAIS",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Repositório de GIFs com sinais em Libras para facilitar o aprendizado visual.",
+    "link": "https://github.com/adelibras/gifs/tree/master"
+  },
+  {
+    "id": 8,
+    "titulo": "Portal de Tecnologia Assistiva",
+    "plataforma": "Site",
+    "categoria": "Formação de Professores",
+    "descricao": "Portal de pranchas e atividades adaptadas para alunos com deficiência.",
+    "link": "https://www.portalassistiva.com.br/pranchas/atividades.php?opcao=3&etapa=2&cod_categoria=10"
+  },
+  {
+    "id": 9,
+    "titulo": "Repositório Digital Huet",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Repositório digital com materiais educativos para surdos.",
+    "link": "http://repositorio.ines.gov.br/ilustra/"
+  },
+  {
+    "id": 10,
+    "titulo": "Biblioteca",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Biblioteca digital com materiais em Libras e recursos acessíveis.",
+    "link": "https://biblioteca.ines.gov.br/"
+  },
+  {
+    "id": 11,
+    "titulo": "Instituto Nacional de Educação de Surdos",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Instituto com foco em educação para surdos, oferecendo cursos e materiais.",
+    "link": "https://www.gov.br/ines/pt-br"
+  },
+  {
+    "id": 12,
+    "titulo": "Materiais Inclusivos",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Repositório de materiais inclusivos, com foco em Libras.",
+    "link": "http://www.librasgerais.com.br/materiais-inclusivos/downloads/"
+  },
+  {
+    "id": 13,
+    "titulo": "Libras Gerais",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Portal com materiais didáticos e recursos em Libras.",
+    "link": "http://www.librasgerais.com.br/principal/index.php"
+  },
+  {
+    "id": 14,
+    "titulo": "Saberes e práticas da inclusão",
+    "plataforma": "Site",
+    "categoria": "Formação de Professores",
+    "descricao": "Guia prático para professores sobre inclusão de alunos surdos.",
+    "link": "https://www.gov.br/mec/pt-br/media/publicacoes/semesp/alunossurdos.pdf/view"
+  },
+  {
+    "id": 15,
+    "titulo": "Blog Dania Pereira",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Blog com artigos e recursos sobre educação em Libras.",
+    "link": "https://danianepereira.blogspot.com/"
+  },
+  {
+    "id": 16,
+    "titulo": "Canal Mãos Aventureiras",
+    "plataforma": "Youtube",
+    "categoria": "Educação em Libras",
+    "descricao": "Canal no YouTube com vídeos educativos em Libras.",
+    "link": "https://www.youtube.com/c/M%C3%A3osAventureiras/videos"
+  },
+  {
+    "id": 17,
+    "titulo": "Educ",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Plataforma de busca para materiais e recursos educacionais em Libras.",
+    "link": "https://educ.see.ac.gov.br/busca?q=surdo%20ou%20libras%20libras%20OR%20libras"
+  },
+  {
+    "id": 18,
+    "titulo": "Clube de Libras",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Repositório de materiais didáticos em Libras, voltado para o ensino.",
+    "link": "https://clubedelibras.ufc.br/pt/recursos/materiais/"
+  },
+  {
+    "id": 19,
+    "titulo": "Materiais Didáticos em Libras",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Materiais didáticos em Libras para apoio ao ensino.",
+    "link": "https://cta.ifrs.edu.br/materiais-de-apoio/glossarios-e-materiais-didaticos-em-libras/"
+  },
+  {
+    "id": 20,
+    "titulo": "Canal Aprender com Libras",
+    "plataforma": "Youtube",
+    "categoria": "Educação em Libras",
+    "descricao": "Canal no YouTube com aulas e recursos em Libras.",
+    "link": "https://www.youtube.com/c/aprendercomlibras"
+  },
+  {
+    "id": 21,
+    "titulo": "Materiais sobre Libras",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Materiais educativos sobre Libras para formação de professores.",
+    "link": "http://www.escoladeformacao.sp.gov.br/portais/Default.aspx?tabid=1899"
+  },
+  {
+    "id": 22,
+    "titulo": "Centro Virtual da Cultura Surda",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Portal sobre a cultura surda, com recursos e materiais educativos.",
+    "link": "https://editora-arara-azul.com.br/centro-virtual-de-cultura-surda/"
+  },
+  {
+    "id": 23,
+    "titulo": "Canal Academia de Libras",
+    "plataforma": "Youtube",
+    "categoria": "Educação em Libras",
+    "descricao": "Canal no YouTube com vídeos educativos em Libras para diversos temas.",
+    "link": "https://www.youtube.com/c/AcademiadeLibras"
+  },
+  {
+    "id": 24,
+    "titulo": "Canal Libras L2",
+    "plataforma": "Youtube",
+    "categoria": "Educação em Libras",
+    "descricao": "Canal no YouTube focado no ensino de Libras como segunda língua.",
+    "link": "https://www.youtube.com/channel/UC0ZGOWQz1aVaKGH15sXVhug"
+  },
+  {
+    "id": 25,
+    "titulo": "Canal Se Liga Nas Mãos",
+    "plataforma": "Youtube",
+    "categoria": "Educação em Libras",
+    "descricao": "Canal no YouTube com conteúdos variados sobre Libras e cultura surda.",
+    "link": "https://www.youtube.com/c/SeLigaNasM%C3%A3os"
+  },
+  {
+    "id": 26,
+    "titulo": "Canal Carlos Cristian Libras",
+    "plataforma": "Youtube",
+    "categoria": "Educação em Libras",
+    "descricao": "Canal no YouTube com vídeos de Libras para iniciantes e avançados.",
+    "link": "https://www.youtube.com/c/CarlosCristianLibras"
+  },
+  {
+    "id": 27,
+    "titulo": "Canal Incluir Tecnologia",
+    "plataforma": "Youtube",
+    "categoria": "Formação de Professores",
+    "descricao": "Canal no YouTube com foco em tecnologia assistiva e inclusão.",
+    "link": "https://www.youtube.com/user/incluirtecnologia"
+  },
+  {
+    "id": 28,
+    "titulo": "Canal Viver de Libras",
+    "plataforma": "Youtube",
+    "categoria": "Educação em Libras",
+    "descricao": "Canal no YouTube com conteúdos sobre Libras para o dia a dia.",
+    "link": "https://www.youtube.com/channel/UChIqq799NHyK9-JNECUISZg"
+  },
+  {
+    "id": 29,
+    "titulo": "Dicionários e Glossários",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Repositório de dicionários e glossários em Libras para diversas áreas, em PDF.",
+    "link": "http://www.cchla.ufpb.br/extlibras/contents/paginas/dicionarios-e-glossarios"
+  },
+  {
+    "id": 30,
+    "titulo": "Vídeos: Sinalários/Contos/Poemas",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Vídeos de sinalários, contos e poemas em Libras para apoio didático.",
+    "link": "http://www.cchla.ufpb.br/extlibras/contents/paginas/videos"
+  },
+  {
+    "id": 31,
+    "titulo": "Materiais Diversos em PDF",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Materiais diversos em PDF voltados para o ensino de Libras.",
+    "link": "http://www.cchla.ufpb.br/extlibras/contents/paginas/pdfs"
+  },
+  {
+    "id": 32,
+    "titulo": "Cadernos de apoio e aprendizagem - Libras",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Cadernos de apoio para aprendizagem de Libras, voltados para professores.",
+    "link": "https://acervodigital.sme.prefeitura.sp.gov.br/palavra/lingua-brasileira-de-sinais-libras/"
+  },
+  {
+    "id": 33,
+    "titulo": "Portal de Libras",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Portal online com recursos e materiais educativos em Libras.",
+    "link": "https://app-hmg-libras.levantelab.com.br/"
+  },
+  {
+    "id": 34,
+    "titulo": "Materiais Pedagógicos",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Materiais pedagógicos inclusivos para diversas disciplinas.",
+    "link": "https://diversa.org.br/materiais-pedagogicos/"
+  },
+  {
+    "id": 35,
+    "titulo": "Materiais Pedagógicos para o Ensino de Libras",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Materiais pedagógicos específicos para o ensino de Libras.",
+    "link": "https://www.dialogosemeducacaoespecial.com.br/post/materididaticensidelibras"
+  },
+  {
+    "id": 36,
+    "titulo": "Jogos Online sobre Libras",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Jogos online interativos para aprendizado de Libras.",
+    "link": "https://cegi.unifesp.br/"
+  },
+  {
+    "id": 37,
+    "titulo": "Livros e apostilas gratuitos em Libras",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Repositório de livros e apostilas gratuitas em Libras.",
+    "link": "https://blog.surdoparasurdo.com.br/livros-e-apostilas-gratuitos-em-libras-pdf-496c7f798f03"
+  },
+  {
+    "id": 38,
+    "titulo": "EscolaWeb",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Plataforma de busca para materiais educativos sobre Libras.",
+    "link": "https://escolaweb.educacao.al.gov.br/busca?q=libras"
+  },
+  {
+    "id": 39,
+    "titulo": "Materiais Pedagógicos Diversos",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Repositório de materiais pedagógicos em Libras para uso em sala de aula.",
+    "link": "https://debasi.ines.gov.br/p%C3%A1gina-inicial"
+  },
+  {
+    "id": 40,
+    "titulo": "Manual de Libras para Ciências: A Célula e o Corpo Humano",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Manual em Libras para o ensino de Ciências com foco na célula e corpo humano.",
+    "link": "https://www.ufpi.br/arquivos_download/arquivos/EBOOK_-_MANUAL_DE_LIBRAS_PARA_CIENCIA-_A_C%C3%ABLULA_E_O_CORPO_HUMANO20200727155142.pdf"
+  },
+  {
+    "id": 41,
+    "titulo": "Curso de Libras",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Curso online de Libras oferecido pela USP, com conteúdo didático estruturado.",
+    "link": "https://edisciplinas.usp.br/course/view.php?id=5603"
+  },
+  {
+    "id": 42,
+    "titulo": "Corpus de Libras",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Corpus digital da Língua Brasileira de Sinais, desenvolvido pela UFSC.",
+    "link": "https://corpuslibras.ufsc.br/"
+  },
+  {
+    "id": 43,
+    "titulo": "Formações Letras-Libras",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Formações e cursos na área de Letras-Libras, oferecidos pela UFCA.",
+    "link": "https://ava.ufca.edu.br/course/index.php?categoryid=61"
+  },
+  {
+    "id": 44,
+    "titulo": "Canal Libras & Trilhas",
+    "plataforma": "Youtube",
+    "categoria": "Educação em Libras",
+    "descricao": "Canal no YouTube com vídeos sobre Libras e educação.",
+    "link": "https://www.youtube.com/@programalibrasetrilhas"
+  },
+  {
+    "id": 45,
+    "titulo": "Libras & Trilhas",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Portal de recursos e materiais educativos para o ensino de Libras.",
+    "link": "https://librasetrilhas.ufam.edu.br/"
+  },
+  {
+    "id": 46,
+    "titulo": "Glossário de Libras (vídeo)",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Glossário de Libras em formato de vídeo, com foco em termos específicos.",
+    "link": "https://casgoiania.com.br/index.php/glossarios/"
+  },
+  {
+    "id": 47,
+    "titulo": "Curso: Introdução à Libras",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Curso introdutório de Libras oferecido pela Escola Virtual do Governo.",
+    "link": "https://www.escolavirtual.gov.br/curso/11"
+  },
+  {
+    "id": 48,
+    "titulo": "Curso de Libras",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Curso de Libras oferecido pela UEMA, com foco em ensino básico.",
+    "link": "https://eskadauema.com/course/view.php?id=58"
+  },
+  {
+    "id": 49,
+    "titulo": "Curso de Libras",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Curso de Libras oferecido pelo SESC, com recursos didáticos.",
+    "link": "https://ead.sesc.digital/cursos/course-v1:sescsaopaulo+c017+2023_libras/sobre"
+  },
+  {
+    "id": 50,
+    "titulo": "Curso de Libras",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Curso de Libras oferecido pelo IFRS, com conteúdo online.",
+    "link": "https://moodle.ifrs.edu.br/course/index.php?categoryid=81"
+  },
+  {
+    "id": 51,
+    "titulo": "VideoAulas de Libras",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Plataforma de videoaulas sobre Libras, oferecida pela USP.",
+    "link": "https://eaulas.usp.br/portal/course.action?course=6085"
+  },
+  {
+    "id": 52,
+    "titulo": "Cursos de Libras",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Cursos de Libras disponíveis no portal do IFSUL.",
+    "link": "https://mundi.ifsul.edu.br/portal/"
+  },
+  {
+    "id": 53,
+    "titulo": "Curso de Tecnologia Assistiva",
+    "plataforma": "Site",
+    "categoria": "Formação de Professores",
+    "descricao": "Curso sobre tecnologia assistiva, oferecido pelo IFSUL.",
+    "link": "https://mundi.ifsul.edu.br/portal/tecnologia-assistiva.php"
+  },
+  {
+    "id": 54,
+    "titulo": "Cursos de Libras",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Cursos de Libras oferecidos pelo IFMS, com enfoque acessível.",
+    "link": "https://cursoslivres.ifms.edu.br/course/search.php?areaids=core_course-course&q=libras"
+  },
+  {
+    "id": 55,
+    "titulo": "Cursos de Acessibilidade com Softwares Microsoft",
+    "plataforma": "Site",
+    "categoria": "Curso de Libras",
+    "descricao": "Cursos de acessibilidade utilizando softwares da Microsoft.",
+    "link": "https://learn.microsoft.com/pt-br/training/educator-center/topics/accessibility"
+  },
+  {
+    "id": 56,
+    "titulo": "Recursos de Acessibilidade do Google",
+    "plataforma": "Site",
+    "categoria": "Acessibilidade",
+    "descricao": "Recursos de acessibilidade do Google para educação inclusiva.",
+    "link": "https://edu.google.com/intl/ALL_br/why-google/accessibility/"
+  },
+  {
+    "id": 57,
+    "titulo": "LITERATURA ACESSÍVEL",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Portal de literatura acessível, com foco em materiais para surdos.",
+    "link": "https://literaturaacessivel.com.br/"
+  },
+  {
+    "id": 58,
+    "titulo": "StorySign",
+    "plataforma": "Android",
+    "categoria": "Acessibilidade",
+    "descricao": "App que traduz livros infantis para a Língua de Sinais, facilitando a leitura para crianças surdas.",
+    "link": "https://play.google.com/store/apps/details?id=com.storysign.storysign"
+  },
+  {
+    "id": 59,
+    "titulo": "Apps de Acessibilidade Linguística",
+    "plataforma": "Site",
+    "categoria": "Acessibilidade",
+    "descricao": "Lista de aplicativos de acessibilidade linguística, com foco em comunicação para surdos.",
+    "link": "https://diariopcd.com.br/2024/05/25/especialista-escreve-sobre-dicas-de-aplicativos-para-surdos/"
+  },
+  {
+    "id": 60,
+    "titulo": "Amplificador de Som para Android",
+    "plataforma": "Android",
+    "categoria": "Acessibilidade",
+    "descricao": "Amplificador de som para Android, destinado a pessoas com baixa audição.",
+    "link": "https://play.google.com/store/apps/details?id=com.google.android.accessibility.soundamplifier"
+  },
+  {
+    "id": 61,
+    "titulo": "Lista de recursos educativos online",
+    "plataforma": "Site",
+    "categoria": "Materiais Pedagógicos",
+    "descricao": "Lista de recursos educativos online, com foco em materiais acessíveis para educação.",
+    "link": "https://crticloures1.wixsite.com/crticloures/sites-educativos"
+  },
+  {
+    "id": 62,
+    "titulo": "DudaLibras",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Jogo educativo que ensina Libras de forma interativa e lúdica.",
+    "link": "https://www.atendelibras.com.br/game"
+  },
+  {
+    "id": 63,
+    "titulo": "Librário: Libras para todos",
+    "plataforma": "Android",
+    "categoria": "Educação em Libras",
+    "descricao": "App para aprendizado de Libras, com atividades interativas para todos os níveis.",
+    "link": "https://play.google.com/store/apps/details?id=com.ludicside.librario&hl=pt_BR"
+  },
+  {
+    "id": 64,
+    "titulo": "LibrasLab",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Plataforma online para aprendizado de Libras com recursos didáticos.",
+    "link": "https://app.libraslab.com.br/"
+  },
+  {
+    "id": 65,
+    "titulo": "Glossário de Libras UFSC",
+    "plataforma": "Site",
+    "categoria": "Educação em Libras",
+    "descricao": "Glossário de Libras desenvolvido pela UFSC, com termos acadêmicos e específicos. Aparentemente não vem sendo atualizado.",
+    "link": "https://www.glossario.libras.ufsc.br/"
+  },
+  {
+    "id": 66,
+    "titulo": "Libras",
+    "plataforma": "Android",
+    "categoria": "Educação em Libras",
+    "descricao": "App que ensina Libras através de jogos e atividades interativas.",
+    "link": "https://play.google.com/store/apps/details?id=com.gamenimando.Libras"
+  },
+  {
+    "id": 67,
+    "titulo": "ForcaBRAS",
+    "plataforma": "Android",
+    "categoria": "Educação em Libras",
+    "descricao": "Jogo de forca em Libras, que ajuda no aprendizado do alfabeto e sinais.",
+    "link": "https://play.google.com/store/apps/details?id=org.godotengine.libras&hl=pt_BR"
+  },
+  {
+    "id": 68,
+    "titulo": "VideoMail",
+    "plataforma": "Site",
+    "categoria": "Acessibilidade",
+    "descricao": "Plataforma de videomail que facilita a comunicação em Libras.",
+    "link": "https://videomail.io/"
+  },
+  {
+    "id": 69,
+    "titulo": "Signas - Aprenda Libras!",
+    "plataforma": "Android",
+    "categoria": "Educação em Libras",
+    "descricao": "App para aprender Libras com diversas atividades e exercícios.",
+    "link": "https://play.google.com/store/apps/details?id=com.AlApps.Signas"
+  },
+  {
+    "id": 70,
+    "titulo": "Alfabeto LIBRAS",
+    "plataforma": "iOS",
+    "categoria": "Educação em Libras",
+    "descricao": "App que ensina o alfabeto em Libras de forma interativa.",
+    "link": "https://apps.apple.com/br/app/alfabeto-libras/id1195602484"
+  },
+  {
+    "id": 71,
+    "titulo": "Extensões de Acessibilidade para Google Chrome",
+    "plataforma": "Site",
+    "categoria": "Acessibilidade",
+    "descricao": "Catálogo de extensões para o navegador Google Chrome que aprimoram a acessibilidade à sites e apps online.",
+    "link": "https://chromewebstore.google.com/category/extensions/make_chrome_yours/accessibility"
+  }
+]
