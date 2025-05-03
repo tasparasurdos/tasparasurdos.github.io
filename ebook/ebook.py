@@ -36,6 +36,26 @@ def generate_ebook(url_tecnologias=None, url_recursos=None):
         print(f"Erro: Imagem 'capa.png' não encontrada em {capa_src}")
         exit(1)
 
+    # Copiar categoria.png para o diretório temporário
+    categoria_src = os.path.join(base_dir, 'ebook', 'conteudos', 'categoria.png')
+    categoria_dst = os.path.join(tmp_dir, 'categoria.png')
+    if os.path.exists(categoria_src):
+        shutil.copy(categoria_src, categoria_dst)
+        print(f"Imagem 'categoria.png' copiada para {tmp_dir}")
+    else:
+        print(f"Erro: Imagem 'categoria.png' não encontrada em {categoria_src}")
+        exit(1)
+
+    # Copiar recursos.png para o diretório temporário
+    recursos_src = os.path.join(base_dir, 'ebook', 'conteudos', 'recursos.png')
+    recursos_dst = os.path.join(tmp_dir, 'recursos.png')
+    if os.path.exists(recursos_src):
+        shutil.copy(recursos_src, recursos_dst)
+        print(f"Imagem 'recursos.png' copiada para {tmp_dir}")
+    else:
+        print(f"Erro: Imagem 'recursos.png' não encontrada em {recursos_src}")
+        exit(1)
+
     # Carregar templates
     template_dir = os.path.join(base_dir, 'ebook', 'conteudos')
     try:
