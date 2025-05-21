@@ -73,7 +73,7 @@
       "arquivo": "helptalk.json"
     },
     {
-      "titulo": "LetMeTalk:Aplicação Grátis CAA",
+      "titulo": "LetMeTalk: Aplicação Grátis CAA",
       "arquivo": "letmetalk.json"
     },
     {
@@ -125,10 +125,6 @@
       "arquivo": "sinalario-em-libras.json"
     },
     {
-      "titulo": "Skype",
-      "arquivo": "skype.json"
-    },
-    {
       "titulo": "SpeakLiz: para pessoas com def",
       "arquivo": "speakliz.json"
     },
@@ -155,6 +151,10 @@
     {
       "titulo": "Transcrição da fala para texto",
       "arquivo": "transcricao-da-fala-para-texto.json"
+    },
+    {
+      "titulo": "Transcrição de Voz com IA",
+      "arquivo": "transcricao-de-voz-com-ia.json"
     },
     {
       "titulo": "Transcrição Instantânea",
@@ -267,10 +267,6 @@
       "arquivo": "librasquim.json"
     },
     {
-      "titulo": "LibrasTI",
-      "arquivo": "librasti.json"
-    },
-    {
       "titulo": "Live Transcribe",
       "arquivo": "live-transcribe.json"
     },
@@ -299,10 +295,6 @@
       "arquivo": "senai-libras.json"
     },
     {
-      "titulo": "Skype",
-      "arquivo": "skype.json"
-    },
-    {
       "titulo": "SpeakLiz: para pessoas com def",
       "arquivo": "speakliz.json"
     },
@@ -329,6 +321,10 @@
     {
       "titulo": "Transcrição da fala para texto",
       "arquivo": "transcricao-da-fala-para-texto.json"
+    },
+    {
+      "titulo": "Transcrição de Voz com IA",
+      "arquivo": "transcricao-de-voz-com-ia.json"
     },
     {
       "titulo": "Transcrição Instantânea",
@@ -429,10 +425,6 @@
       "arquivo": "librasquim.json"
     },
     {
-      "titulo": "LibrasTI",
-      "arquivo": "librasti.json"
-    },
-    {
       "titulo": "Live Transcribe",
       "arquivo": "live-transcribe.json"
     },
@@ -447,10 +439,6 @@
     {
       "titulo": "SENAI Libras",
       "arquivo": "senai-libras.json"
-    },
-    {
-      "titulo": "Skype",
-      "arquivo": "skype.json"
     },
     {
       "titulo": "SpeakLiz: para pessoas com def",
@@ -475,6 +463,10 @@
     {
       "titulo": "Transcreva ao vivo",
       "arquivo": "transcreva-ao-vivo.json"
+    },
+    {
+      "titulo": "Transcrição de Voz com IA",
+      "arquivo": "transcricao-de-voz-com-ia.json"
     },
     {
       "titulo": "Transcrição Instantânea",
@@ -563,10 +555,6 @@
       "arquivo": "librasquim.json"
     },
     {
-      "titulo": "LibrasTI",
-      "arquivo": "librasti.json"
-    },
-    {
       "titulo": "Live Transcribe",
       "arquivo": "live-transcribe.json"
     },
@@ -581,10 +569,6 @@
     {
       "titulo": "SENAI Libras",
       "arquivo": "senai-libras.json"
-    },
-    {
-      "titulo": "Skype",
-      "arquivo": "skype.json"
     },
     {
       "titulo": "Speech To Text | Voice To Text",
@@ -605,6 +589,10 @@
     {
       "titulo": "Transcreva ao vivo",
       "arquivo": "transcreva-ao-vivo.json"
+    },
+    {
+      "titulo": "Transcrição de Voz com IA",
+      "arquivo": "transcricao-de-voz-com-ia.json"
     },
     {
       "titulo": "Transcrição Instantânea",
@@ -669,7 +657,7 @@
       "arquivo": "helptalk.json"
     },
     {
-      "titulo": "LetMeTalk:Aplicação Grátis CAA",
+      "titulo": "LetMeTalk: Aplicação Grátis CAA",
       "arquivo": "letmetalk.json"
     },
     {
@@ -715,6 +703,10 @@
     {
       "titulo": "Transcrição da fala para texto",
       "arquivo": "transcricao-da-fala-para-texto.json"
+    },
+    {
+      "titulo": "Transcrição de Voz com IA",
+      "arquivo": "transcricao-de-voz-com-ia.json"
     },
     {
       "titulo": "Virginia ajuda deficientes",
@@ -767,7 +759,7 @@
       "arquivo": "helptalk.json"
     },
     {
-      "titulo": "LetMeTalk:Aplicação Grátis CAA",
+      "titulo": "LetMeTalk: Aplicação Grátis CAA",
       "arquivo": "letmetalk.json"
     },
     {
@@ -801,6 +793,10 @@
     {
       "titulo": "Transcrição da fala para texto",
       "arquivo": "transcricao-da-fala-para-texto.json"
+    },
+    {
+      "titulo": "Transcrição de Voz com IA",
+      "arquivo": "transcricao-de-voz-com-ia.json"
     },
     {
       "titulo": "Virginia ajuda deficientes",

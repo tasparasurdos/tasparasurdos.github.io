@@ -1,10 +1,6 @@
 {
   "Parcialmente": [
     {
-      "titulo": "Dicionário da Língua Brasileira de Sinais",
-      "arquivo": "dicionario-da-lingua-brasileira-de-sinais.json"
-    },
-    {
       "titulo": "Dicionário da Língua Brasileira de Sinais V3 - 2011",
       "arquivo": "dicionario-da-lingua-brasileira-de-sinais-2011.json"
     },
@@ -83,6 +79,10 @@
       "arquivo": "comunicacao-para-surdos.json"
     },
     {
+      "titulo": "Dicionário da Língua Brasileira de Sinais",
+      "arquivo": "dicionario-da-lingua-brasileira-de-sinais.json"
+    },
+    {
       "titulo": "Dicionário de Sinais da Área de Tecnologia",
       "arquivo": "dicionario-de-sinais-da-area-de-tecnologia.json"
     },
@@ -119,16 +119,16 @@
       "arquivo": "sinalario-em-libras.json"
     },
     {
-      "titulo": "Skype",
-      "arquivo": "skype.json"
-    },
-    {
       "titulo": "Speech To Text | Voice To Text",
       "arquivo": "speech-to-text-voice-to-text.json"
     },
     {
       "titulo": "Tradutor de Conversas",
       "arquivo": "tradutor-de-conversas.json"
+    },
+    {
+      "titulo": "Transcrição de Voz com IA",
+      "arquivo": "transcricao-de-voz-com-ia.json"
     },
     {
       "titulo": "TurboScribe",
@@ -169,12 +169,8 @@
       "arquivo": "helptalk.json"
     },
     {
-      "titulo": "LetMeTalk:Aplicação Grátis CAA",
+      "titulo": "LetMeTalk: Aplicação Grátis CAA",
       "arquivo": "letmetalk.json"
-    },
-    {
-      "titulo": "LibrasTI",
-      "arquivo": "librasti.json"
     },
     {
       "titulo": "Live Transcribe",

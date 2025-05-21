@@ -1,0 +1,15 @@
+{
+  "titulo": "Transcrição de Voz com IA",
+  "descricao": "O aplicativo \"IA - Transcrever Voz em Texto\" emprega inteligência artificial para converter áudios em texto com precisão e rapidez. Ele reúne funções de transcrição e resumo que possibilitam o acesso facilitado ao conteúdo falado em diversos contextos, como reuniões, consultas, aulas, entrevistas e outros eventos. Sua aplicação na área de tecnologia assistiva é destacada pela possibilidade de oferecer, em tempo real, acesso textual à fala, contribuindo para a inclusão de pessoas surdas em ambientes educacionais.",
+  "orientacao": "Para atingir o máximo potencial da ferramenta, recomenda-se utilizar um ambiente com boa qualidade de áudio, onde o ruído seja minimizado e a dicção seja clara. A verificação e correção periódica das transcrições ajudam a manter a precisão do resultado. Em contextos educacionais, é importante que o texto transcrito seja sincronizado com outros recursos visuais, para que os alunos surdos possam acompanhar a aula de maneira eficaz, evitando assim imprevistos decorrentes de condições desfavoráveis do ambiente.",
+  "dicas": "A tecnologia pode ser empregada na prática pedagógica para auxiliar os alunos na comparação entre o conteúdo falado e o texto escrito, favorecendo a interpretação e a análise crítica do discurso. Seu uso em aulas de línguas, debates e atividades interativas é interessante, pois permite a síntese das informações abordadas em sala de aula. Entretanto, deve-se proceder com cautela em situações onde haja sobreposição de vozes ou interferência sonora, pois estas condições podem prejudicar a clareza dos resultados.",
+  "etapas_justificativa": "O IA - Transcrever Voz em Texto é mais indicado para etapas em que os alunos já dominam a leitura, permitindo que se beneficiem da conversão do conteúdo oral em registros textuais para aprimorar a compreensão e revisão.",
+  "imagem": "https://tasparasurdos.github.io/imagens/transcricao-de-voz-com-ia.jpg",
+  "categoria": "Transcrição de Fala",
+  "custo": "Pago",
+  "requer_internet": "Sim",
+  "plataformas": "Android",
+  "autor": "AppGeneration Software Technologies, Lda",
+  "link": "Android,https://play.google.com/store/apps/details?id=ai.transcribe.voice.to.text.notes.meeting.assistant",
+  "etapas": "Educação Infantil; Ensino Fundamental - Anos Iniciais; Ensino Fundamental - Anos Finais; Ensino Médio; EJA; Ensino Superior"
+}

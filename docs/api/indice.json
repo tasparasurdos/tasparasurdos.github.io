@@ -91,8 +91,8 @@
     "titulo": "Dicionário da Língua Brasileira de Sinais",
     "icone": "https://tasparasurdos.github.io/imagens/dicionario-da-lingua-brasileira-de-sinais-icon.jpg",
     "slug": "dicionario-da-lingua-brasileira-de-sinais",
-    "custo": "Pago",
-    "requer_internet": "Parcialmente",
+    "custo": "Grátis",
+    "requer_internet": "Sim",
     "plataformas": "Site",
     "etapas": "Ensino Fundamental - Anos Finais; Ensino Médio; EJA; Ensino Superior",
     "apresentacao": "Site com milhares de sinais de Libras no formato de vídeo.",
@@ -198,7 +198,7 @@
     "link": "https://tasparasurdos.github.io/api/helptalk.json"
   },
   {
-    "titulo": "LetMeTalk:Aplicação Grátis CAA",
+    "titulo": "LetMeTalk: Aplicação Grátis CAA",
     "icone": "https://tasparasurdos.github.io/imagens/letmetalk-icon.jpg",
     "slug": "letmetalk",
     "custo": "Grátis",
@@ -229,17 +229,6 @@
     "etapas": "Ensino Fundamental - Anos Finais; Ensino Médio; EJA; Ensino Superior",
     "apresentacao": "Traz sinais em Libras para termos comuns da Química.",
     "link": "https://tasparasurdos.github.io/api/librasquim.json"
-  },
-  {
-    "titulo": "LibrasTI",
-    "icone": "https://tasparasurdos.github.io/imagens/librasti-icon.jpg",
-    "slug": "librasti",
-    "custo": "Grátis",
-    "requer_internet": "Não",
-    "plataformas": "Android",
-    "etapas": "Ensino Médio; EJA; Ensino Superior",
-    "apresentacao": "Traz um glossário de termos técnicos da área de tecnologia da informação em Libras.",
-    "link": "https://tasparasurdos.github.io/api/librasti.json"
   },
   {
     "titulo": "Live Transcribe",
@@ -363,17 +352,6 @@
     "link": "https://tasparasurdos.github.io/api/sinalario-em-libras.json"
   },
   {
-    "titulo": "Skype",
-    "icone": "https://tasparasurdos.github.io/imagens/skype-icon.jpg",
-    "slug": "skype",
-    "custo": "Freemium",
-    "requer_internet": "Sim",
-    "plataformas": "Android; iOS; Site; Windows",
-    "etapas": "Ensino Fundamental - Anos Finais; Ensino Médio; EJA; Ensino Superior",
-    "apresentacao": "Serviço de comunicação com legendas ao vivo e tradução de chamadas.",
-    "link": "https://tasparasurdos.github.io/api/skype.json"
-  },
-  {
     "titulo": "SpeakLiz: para pessoas com def",
     "icone": "https://tasparasurdos.github.io/imagens/speakliz-icon.jpg",
     "slug": "speakliz",
@@ -460,6 +438,17 @@
     "etapas": "Educação Infantil; Ensino Fundamental - Anos Iniciais; Ensino Fundamental - Anos Finais; Ensino Médio",
     "apresentacao": "Transcrição de fala em texto com modo offline.",
     "link": "https://tasparasurdos.github.io/api/transcricao-da-fala-para-texto.json"
+  },
+  {
+    "titulo": "Transcrição de Voz com IA",
+    "icone": "https://tasparasurdos.github.io/imagens/transcricao-de-voz-com-ia-icon.jpg",
+    "slug": "transcricao-de-voz-com-ia",
+    "custo": "Pago",
+    "requer_internet": "Sim",
+    "plataformas": "Android",
+    "etapas": "Educação Infantil; Ensino Fundamental - Anos Iniciais; Ensino Fundamental - Anos Finais; Ensino Médio; EJA; Ensino Superior",
+    "apresentacao": "App de transcrição que converte áudio em texto e gera resumos.",
+    "link": "https://tasparasurdos.github.io/api/transcricao-de-voz-com-ia.json"
   },
   {
     "titulo": "Transcrição Instantânea",

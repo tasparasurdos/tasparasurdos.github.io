@@ -9,10 +9,6 @@
       "arquivo": "libras-para-todos.json"
     },
     {
-      "titulo": "LibrasTI",
-      "arquivo": "librasti.json"
-    },
-    {
       "titulo": "Mudo Que Fala",
       "arquivo": "mudo-que-fala.json"
     },
@@ -37,6 +33,10 @@
       "arquivo": "tradutor-de-conversas.json"
     },
     {
+      "titulo": "Transcrição de Voz com IA",
+      "arquivo": "transcricao-de-voz-com-ia.json"
+    },
+    {
       "titulo": "Transcrição Instantânea",
       "arquivo": "transcricao-instantanea.json"
     },
@@ -55,7 +55,7 @@
       "arquivo": "comunicacao-para-surdos.json"
     },
     {
-      "titulo": "LetMeTalk:Aplicação Grátis CAA",
+      "titulo": "LetMeTalk: Aplicação Grátis CAA",
       "arquivo": "letmetalk.json"
     },
     {
@@ -193,10 +193,6 @@
     {
       "titulo": "Cboard",
       "arquivo": "cboard.json"
-    },
-    {
-      "titulo": "Skype",
-      "arquivo": "skype.json"
     },
     {
       "titulo": "Zoom",
